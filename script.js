@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "smartphones",
             desc: "256GB/12GB, Snapdragon 8 Gen 3, Titanium Gray, AI Features enabled.",
             price: "LKR 315,000",
-            image: "assets/products/s24_ultra.jpg",
+            image: "s24_ultra.jpg",
             badge: "Trending"
         },
         {
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "smartphones",
             desc: "512GB/12GB, 200MP Ultra-Clear Camera, 6.7-inch Quad-Curved Screen.",
             price: "LKR 145,000",
-            image: "assets/products/honor_90.jpg",
+            image: "honor_90.jpg",
             badge: "Popular"
         },
         {
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "smartphones",
             desc: "256GB/8GB, Helio G99 Processor, 108MP Camera, Fast Charging.",
             price: "LKR 62,500",
-            image: "assets/products/infinix_hot40.jpg",
+            image: "infinix_hot40.jpg",
             badge: "Best Seller"
         },
         {
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "smartphones",
             desc: "256GB/8GB, 120Hz Display, 108MP Ultra Sensing Camera, premium finish.",
             price: "LKR 58,000",
-            image: "assets/products/tecno_spark20.jpg",
+            image: "tecno_spark20.jpg",
             badge: "New"
         },
         {
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "smartphones",
             desc: "128GB/8GB, Snapdragon 685, 108MP Camera, ultra-slim design.",
             price: "LKR 59,500",
-            image: "assets/products/realme_c67.jpg",
+            image: "realme_c67.jpg",
             badge: ""
         },
         {
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "smartphones",
             desc: "256GB/8GB, 200MP Camera, MediaTek Helio G99-Ultra, 67W Turbo Charge.",
             price: "LKR 95,000",
-            image: "assets/products/redmi_note13.jpg",
+            image: "redmi_note13.jpg",
             badge: "Glow Accent"
         },
         
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "feature-phones",
             desc: "Dual SIM, 4G Connectivity, MP3 Player, Wireless FM Radio, Long Battery.",
             price: "LKR 12,500",
-            image: "assets/products/nokia_220.jpg",
+            image: "nokia_220.jpg",
             badge: "Long Battery"
         },
         {
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "feature-phones",
             desc: "Dual SIM, Camera, Bluetooth, FM Radio, torch light, expandable storage.",
             price: "LKR 6,800",
-            image: "assets/products/greentel_classic.jpg",
+            image: "greentel_classic.jpg",
             badge: ""
         },
         {
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "feature-phones",
             desc: "Premium metal housing, robust keypad, loud speaker, powerful vibration.",
             price: "LKR 7,500",
-            image: "assets/products/switch_f1.jpg",
+            image: "switch_f1.jpg",
             badge: "Metal Body"
         },
         {
@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "feature-phones",
             desc: "Super large 3000mAh battery, Powerbank functionality, super torch.",
             price: "LKR 8,200",
-            image: "assets/products/etel_power.jpg",
+            image: "etel_power.jpg",
             badge: "Powerbank Function"
         },
 
@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "accessories",
             desc: "Mini True Wireless Earbuds, Bluetooth 5.3, 25 hours long battery life.",
             price: "LKR 8,500",
-            image: "assets/products/baseus_wm02.jpg",
+            image: "baseus_wm02.jpg",
             badge: "Top Rated"
         },
         {
@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "accessories",
             desc: "22.5W Fast Charging Power Bank, LED Digital Display, Multi-device charging.",
             price: "LKR 10,500",
-            image: "assets/products/joyroom_powerbank.jpg",
+            image: "joyroom_powerbank.jpg",
             badge: "Fast Charge"
         },
         {
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "accessories",
             desc: "Dual Port (Type-C + USB) adapter with matching fast charging cable.",
             price: "LKR 4,200",
-            image: "assets/products/bavin_charger.jpg",
+            image: "bavin_charger.jpg",
             badge: ""
         },
         {
@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "accessories",
             desc: "Over-ear headphones, Hi-Fi stereo sound, ultra comfortable ear-pads.",
             price: "LKR 7,800",
-            image: "assets/products/celebrat_headphones.jpg",
+            image: "celebrat_headphones.jpg",
             badge: ""
         },
         {
@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "accessories",
             desc: "Heart rate monitoring, multiple sports modes, long battery, HD touch screen.",
             price: "LKR 16,500",
-            image: "assets/products/baseus_watch.jpg",
+            image: "baseus_watch.jpg",
             badge: "Premium"
         },
 
@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "gifts",
             desc: "Includes modern smartwatch, Bluetooth TWS earbuds, and carbon leather wallet.",
             price: "LKR 24,500",
-            image: "assets/products/gift_elite.jpg",
+            image: "gift_elite.jpg",
             badge: "Special Gift"
         },
         {
@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "gifts",
             desc: "Surround sound speaker with dancing RGB lights, includes premium micro USB kit.",
             price: "LKR 11,500",
-            image: "assets/products/gift_speaker.jpg",
+            image: "gift_speaker.jpg",
             badge: "Best Seller"
         },
         {
@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "gifts",
             desc: "Luxury gift wrap with executive cardholder phone stand and wireless charger.",
             price: "LKR 13,800",
-            image: "assets/products/gift_case.jpg",
+            image: "gift_case.jpg",
             badge: "Premium Wrap"
         }
     ];
