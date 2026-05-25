@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Settings -->
+    <title>DW Mobiles & Gifts | Mobile Phones & Accessories in Yakkala</title>
+    <meta name="description" content="Buy smartphones, accessories, feature phones and gift items from DW Mobiles & Gifts in Yakkala. Best prices and trusted service.">
+    <meta name="keywords" content="mobile shop yakkala, smartphones sri lanka, mobile accessories yakkala, gift items yakkala, samsung phones sri lanka, baseus accessories sri lanka">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="DW Mobiles & Gifts | Mobile Phones & Accessories in Yakkala">
+    <meta property="og:description" content="Buy smartphones, accessories, feature phones and gift items in Yakkala. Best prices and trusted service.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dwmobilesandgifts.lk">
+    <meta property="og:image" content="logo.jpg">
+
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVBAR SECTION -->
+    <header class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a href="#home" class="navbar-logo" id="nav-logo-link">
+                <img src="logo.jpg" alt="DW Mobiles & Gifts Logo">
+            </a>
+            
+            <nav class="navbar-menu" id="navbar-menu">
+                <a href="#home" class="navbar-link active" id="nav-home">Home</a>
+                <a href="#products" class="navbar-link" id="nav-products">Products</a>
+                <a href="#brands" class="navbar-link" id="nav-brands">Brands</a>
+                <a href="#accessories" class="navbar-link" id="nav-accessories">Accessories</a>
+                <a href="#gifts" class="navbar-link" id="nav-gifts">Gifts</a>
+                <a href="#contact" class="navbar-link" id="nav-contact">Contact</a>
+            </nav>
+            
+            <div class="navbar-cta">
+                <button class="btn btn-primary" data-whatsapp-action="hero-shop" id="btn-nav-whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
+                </button>
+            </div>
+            
+            <div class="hamburger" id="hamburger" aria-label="Toggle menu" role="button" tabindex="0">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-content reveal">
+                <div class="hero-subtitle">
+                    <i class="fa-solid fa-bolt"></i> We Power Every Moment
+                </div>
+                <h1 class="hero-title">DW Mobiles & Gifts</h1>
+                <p class="hero-description">
+                    Latest Smartphones, Accessories & Gift Items in Yakkala. Experience premium quality, trusted local warranties, and instant customer service.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary" id="btn-hero-shop-now">
+                        Shop Now <i class="fa-solid fa-arrow-right-long"></i>
+                    </a>
+                    <button class="btn btn-secondary" data-whatsapp-action="hero-shop" id="btn-hero-whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image-wrapper reveal">
+                <div class="hero-image-glow"></div>
+                <img src="assets/hero_showcase.png" alt="DW Mobiles Tech Showcase" class="hero-image">
+                
+                <!-- Floating Glassmorphism Badges -->
+                <div class="hero-floating-badge badge-top-right">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <span>
+                        Genuine Goods
+                        <strong>100% Authentic</strong>
+                    </span>
+                </div>
+                <div class="hero-floating-badge badge-bottom-left">
+                    <i class="fa-solid fa-store"></i>
+                    <span>
+                        Local Store
+                        <strong>Yakkala Shop</strong>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATEGORIES SECTION -->
+    <section class="categories" id="categories-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Our Products</h2>
+                <p>Explore our main collections curated to cover all your mobile, utility, and gifting needs.</p>
+            </div>
+            
+            <div class="categories-grid">
+                <!-- Smartphones -->
+                <div class="category-card reveal" id="cat-card-smartphones">
+                    <div class="category-icon-wrapper">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <h3>Smartphones</h3>
+                    <p>Latest flagship, mid-range, and entry-level Android devices with local warranty.</p>
+                    <a href="#products" class="category-link" onclick="document.querySelector('[data-filter=smartphones]').click();">
+                        View List <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Feature Phones -->
+                <div class="category-card reveal" id="cat-card-features">
+                    <div class="category-icon-wrapper">
+                        <i class="fa-solid fa-mobile-button"></i>
+                    </div>
+                    <h3>Feature Phones</h3>
+                    <p>Highly durable, long-battery back-up phones from top reliable brands.</p>
+                    <a href="#products" class="category-link" onclick="document.querySelector('[data-filter=feature-phones]').click();">
+                        View List <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Accessories -->
+                <div class="category-card reveal" id="cat-card-accessories">
+                    <div class="category-icon-wrapper">
+                        <i class="fa-solid fa-headphones"></i>
+                    </div>
+                    <h3>Accessories</h3>
+                    <p>Premium chargers, powerbanks, Bluetooth audio, smartwatches, and cables.</p>
+                    <a href="#products" class="category-link" onclick="document.querySelector('[data-filter=accessories]').click();">
+                        View List <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Gift Items -->
+                <div class="category-card reveal" id="cat-card-gifts">
+                    <div class="category-icon-wrapper">
+                        <i class="fa-solid fa-gift"></i>
+                    </div>
+                    <h3>Gift Items</h3>
+                    <p>Beautiful gadget combo packs, customizable lights, and premium accessories set.</p>
+                    <a href="#products" class="category-link" onclick="document.querySelector('[data-filter=gifts]').click();">
+                        View List <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCT CATALOG SHOWCASE -->
+    <section class="products-section" id="products">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Product Showcase</h2>
+                <p>Browse our live inventory catalog. Use filters or search to find your preferred devices and send an instant inquiry.</p>
+            </div>
+            
+            <div class="catalog-controls reveal">
+                <!-- Search Bar -->
+                <div class="catalog-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="catalog-search-input" placeholder="Search product or brand...">
+                </div>
+                
+                <!-- Filters -->
+                <div class="catalog-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="smartphones">Smartphones</button>
+                    <button class="filter-btn" data-filter="feature-phones">Feature Phones</button>
+                    <button class="filter-btn" data-filter="accessories">Accessories</button>
+                    <button class="filter-btn" data-filter="gifts">Gifts</button>
+                </div>
+            </div>
+            
+            <!-- Products Grid (Dynamically Rendered) -->
+            <div class="products-grid" id="products-grid">
+                <!-- Dynamic cards loaded via script.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED BRANDS SECTION -->
+    <section class="brands-section" id="brands">
+        <div class="container">
+            <div class="brands-title reveal">WE STOCK THE WORLD'S LEADING BRANDS</div>
+            <div class="brands-container reveal">
+                <div class="brands-wrapper">
+                    <!-- Scrolling Ticker List 1 (Duplicated to allow infinite loop) -->
+                    <div class="brands-slide">
+                        <!-- Smartphones -->
+                        <span class="brand-logo-badge">SAMSUNG</span>
+                        <span class="brand-logo-badge">HONOR</span>
+                        <span class="brand-logo-badge">INFINIX</span>
+                        <span class="brand-logo-badge">TECNO</span>
+                        <span class="brand-logo-badge">NUBIA</span>
+                        <span class="brand-logo-badge">XIAOMI</span>
+                        <span class="brand-logo-badge">OPPO</span>
+                        <span class="brand-logo-badge">REALME</span>
+                        <span class="brand-logo-badge">VIVO</span>
+                        <!-- Feature phones -->
+                        <span class="brand-logo-badge">NOKIA</span>
+                        <span class="brand-logo-badge">GREENTEL</span>
+                        <span class="brand-logo-badge">ETEL</span>
+                        <span class="brand-logo-badge">SWITCH</span>
+                        <!-- Accessories -->
+                        <span class="brand-logo-badge">BASEUS</span>
+                        <span class="brand-logo-badge">JOYROOM</span>
+                        <span class="brand-logo-badge">BAVIN</span>
+                        <span class="brand-logo-badge">CELEBRAT</span>
+                        <span class="brand-logo-badge">FONENG</span>
+                        <span class="brand-logo-badge">MOXOM</span>
+                        
+                        <!-- Duplicated for seamless slide -->
+                        <span class="brand-logo-badge">SAMSUNG</span>
+                        <span class="brand-logo-badge">HONOR</span>
+                        <span class="brand-logo-badge">INFINIX</span>
+                        <span class="brand-logo-badge">TECNO</span>
+                        <span class="brand-logo-badge">NUBIA</span>
+                        <span class="brand-logo-badge">XIAOMI</span>
+                        <span class="brand-logo-badge">OPPO</span>
+                        <span class="brand-logo-badge">REALME</span>
+                        <span class="brand-logo-badge">VIVO</span>
+                        <span class="brand-logo-badge">NOKIA</span>
+                        <span class="brand-logo-badge">GREENTEL</span>
+                        <span class="brand-logo-badge">ETEL</span>
+                        <span class="brand-logo-badge">SWITCH</span>
+                        <span class="brand-logo-badge">BASEUS</span>
+                        <span class="brand-logo-badge">JOYROOM</span>
+                        <span class="brand-logo-badge">BAVIN</span>
+                        <span class="brand-logo-badge">CELEBRAT</span>
+                        <span class="brand-logo-badge">FONENG</span>
+                        <span class="brand-logo-badge">MOXOM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US SECTION -->
+    <section class="why-choose-us" id="why-choose-us-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Why Choose Us</h2>
+                <p>We pride ourselves on delivery standards, local trust, and direct-to-customer friendliness in Yakkala.</p>
+            </div>
+            
+            <div class="why-grid">
+                <!-- Card 1 -->
+                <div class="why-card reveal">
+                    <div class="why-icon">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class="why-info">
+                        <h3>Genuine Products</h3>
+                        <p>100% authentic mobile devices, certified chargers, and high-tier electronics directly sourced.</p>
+                    </div>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="why-card reveal">
+                    <div class="why-icon">
+                        <i class="fa-solid fa-tags"></i>
+                    </div>
+                    <div class="why-info">
+                        <h3>Best Prices</h3>
+                        <p>Highly competitive retail rates in Yakkala with value-matching deals and warranty cover.</p>
+                    </div>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="why-card reveal">
+                    <div class="why-icon">
+                        <i class="fa-solid fa-face-smile"></i>
+                    </div>
+                    <div class="why-info">
+                        <h3>Friendly Service</h3>
+                        <p>Customer-centric aftersales support, setup assistance, and warm local shop guidance.</p>
+                    </div>
+                </div>
+                
+                <!-- Card 4 -->
+                <div class="why-card reveal">
+                    <div class="why-icon">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <div class="why-info">
+                        <h3>Latest Products</h3>
+                        <p>Weekly stock refreshes to bring you the newest gadgets, smartphones, and global accessories.</p>
+                    </div>
+                </div>
+                
+                <!-- Card 5 -->
+                <div class="why-card reveal">
+                    <div class="why-icon">
+                        <i class="fa-solid fa-house-chimney-user"></i>
+                    </div>
+                    <div class="why-info">
+                        <h3>Trusted Local Shop</h3>
+                        <p>Establishment deeply rooted in the Yakkala community offering robust face-to-face reliability.</p>
+                    </div>
+                </div>
+                
+                <!-- Card 6 -->
+                <div class="why-card reveal">
+                    <div class="why-icon">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <div class="why-info">
+                        <h3>Quick Inquiries</h3>
+                        <p>Instant answers on stock, specifications, and customization requests straight through WhatsApp.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACCESSORIES SHOWCASE (DARK/WHITE SECTION) -->
+    <section class="accessories-section" id="accessories">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Premium Accessories</h2>
+                <p>Maximize your smartphone capabilities with original high-performance add-ons.</p>
+            </div>
+            
+            <div class="accessories-grid">
+                <!-- Chargers -->
+                <div class="accessory-card reveal">
+                    <div class="accessory-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <h3>Fast Chargers</h3>
+                    <p>Qualcomm Quick Charge & Power Delivery units from Baseus, Bavin & Moxom.</p>
+                </div>
+                <!-- Earphones -->
+                <div class="accessory-card reveal">
+                    <div class="accessory-icon"><i class="fa-solid fa-headphones"></i></div>
+                    <h3>Earphones & TWS</h3>
+                    <p>Crystal clear audio, noise isolation, and premium wireless headphones.</p>
+                </div>
+                <!-- Speakers -->
+                <div class="accessory-card reveal">
+                    <div class="accessory-icon"><i class="fa-solid fa-volume-high"></i></div>
+                    <h3>Bluetooth Speakers</h3>
+                    <p>Portable heavy-bass speakers perfect for home, outdoor parties, and gifts.</p>
+                </div>
+                <!-- Power Banks -->
+                <div class="accessory-card reveal">
+                    <div class="accessory-icon"><i class="fa-solid fa-battery-full"></i></div>
+                    <h3>Power Banks</h3>
+                    <p>High-capacity 10k/20k/30k mAh back-up packs with speed charge indicator.</p>
+                </div>
+                <!-- USB Cables -->
+                <div class="accessory-card reveal">
+                    <div class="accessory-icon"><i class="fa-solid fa-cable-car"></i></div>
+                    <h3>USB Cables</h3>
+                    <p>Heavy duty armored copper cables for Micro, Lightning, and Type-C.</p>
+                </div>
+                <!-- Smart Watches -->
+                <div class="accessory-card reveal">
+                    <div class="accessory-icon"><i class="fa-solid fa-stopwatch"></i></div>
+                    <h3>Smart Watches</h3>
+                    <p>Track your health, calls, messages, and workouts with sleek wearable tech.</p>
+                </div>
+                <!-- Cases -->
+                <div class="accessory-card reveal">
+                    <div class="accessory-icon"><i class="fa-solid fa-shield"></i></div>
+                    <h3>Premium Cases</h3>
+                    <p>Shockproof armor shells, clear covers, and executive leather sleeves.</p>
+                </div>
+                <!-- Screen Protectors -->
+                <div class="accessory-card reveal">
+                    <div class="accessory-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                    <h3>Tempered Glasss</h3>
+                    <p>9H hardness drop protection with edge-to-edge privacy filter coatings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GIFT ITEMS SECTION -->
+    <section class="gifts-section" id="gifts">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Curated Gift Items</h2>
+                <p>Stunning tech gift box bundles, custom lighting devices, and gadgets perfect for your loved ones.</p>
+            </div>
+            
+            <div class="gifts-grid">
+                <!-- Gift Box 1 -->
+                <div class="gift-card reveal" id="gift-1">
+                    <div class="gift-icon-container">
+                        <i class="fa-solid fa-box-open"></i>
+                    </div>
+                    <h3>Executive Tech Bundle</h3>
+                    <p>A beautifully styled high-end box pack compiled for professionals.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> HD Smartwatch</li>
+                        <li><i class="fa-solid fa-check"></i> ANC Bluetooth Earbuds</li>
+                        <li><i class="fa-solid fa-check"></i> Executive Leather Cardholder</li>
+                    </ul>
+                    <button class="btn btn-whatsapp" data-whatsapp-action="gift-inquiry" data-gift-name="Executive Tech Bundle">
+                        <i class="fa-brands fa-whatsapp"></i> Inquire Gift Set
+                    </button>
+                </div>
+                
+                <!-- Gift Box 2 -->
+                <div class="gift-card reveal" id="gift-2">
+                    <div class="gift-icon-container">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3>Party Music Kit</h3>
+                    <p>Perfect for birthdays and celebrations. Bring rhythm and colors to the room.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> RGB LED Bluetooth Speaker</li>
+                        <li><i class="fa-solid fa-check"></i> Fast Charger Adapter</li>
+                        <li><i class="fa-solid fa-check"></i> Multi-Charging Braided Cable</li>
+                    </ul>
+                    <button class="btn btn-whatsapp" data-whatsapp-action="gift-inquiry" data-gift-name="Party Music Kit">
+                        <i class="fa-brands fa-whatsapp"></i> Inquire Gift Set
+                    </button>
+                </div>
+                
+                <!-- Gift Box 3 -->
+                <div class="gift-card reveal" id="gift-3">
+                    <div class="gift-icon-container">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <h3>Customized Gadget Box</h3>
+                    <p>Select products based on their personal brand choices. Tailor it your way!</p>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Premium Custom Wrapping</li>
+                        <li><i class="fa-solid fa-check"></i> Greeting Card Included</li>
+                        <li><i class="fa-solid fa-check"></i> Flexible Item Selection</li>
+                    </ul>
+                    <button class="btn btn-whatsapp" data-whatsapp-action="gift-inquiry" data-gift-name="Customized Gadget Box">
+                        <i class="fa-brands fa-whatsapp"></i> Inquire Gift Set
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CUSTOMER TRUST SECTION -->
+    <section class="trust-section" id="trust-statistics">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card reveal">
+                    <h3>1000+</h3>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="stat-card reveal">
+                    <h3>30+</h3>
+                    <p>Premium Brands</p>
+                </div>
+                <div class="stat-card reveal">
+                    <h3>100%</h3>
+                    <p>Genuine Products</p>
+                </div>
+                <div class="stat-card reveal">
+                    <h3>24/7</h3>
+                    <p>WhatsApp Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHATSAPP CTA BANNER -->
+    <section class="whatsapp-banner">
+        <div class="container">
+            <div class="banner-container reveal">
+                <div class="banner-content">
+                    <h2>Need a Phone or Accessory?</h2>
+                    <p>Chat with us instantly! We assist you in selecting the right product and confirm local stocks.</p>
+                </div>
+                <div class="banner-cta">
+                    <button class="btn btn-secondary btn-white" data-whatsapp-action="banner-instant" id="btn-banner-whatsapp">
+                        <i class="fa-brands fa-whatsapp" style="color: #25d366; font-size: 1.3rem;"></i> WhatsApp Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Contact Us</h2>
+                <p>Visit our store in Yakkala or reach out online for instant answers to your tech questions.</p>
+            </div>
+            
+            <div class="contact-grid">
+                <!-- Details Box -->
+                <div class="contact-info-panel reveal">
+                    <h3>DW Mobiles & Gifts</h3>
+                    <p style="margin: 10px 0 30px 0;">Premium mobile store, accessories importer, and gifts distributor in Kirindiwela Road.</p>
+                    
+                    <div class="contact-details">
+                        <!-- Phone -->
+                        <div class="contact-item">
+                            <div class="contact-icon-box">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="contact-text-box">
+                                <h4>Phone Number</h4>
+                                <p><a href="tel:+94714366377">071 4 366 377</a></p>
+                            </div>
+                        </div>
+                        
+                        <!-- Email -->
+                        <div class="contact-item">
+                            <div class="contact-icon-box">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="contact-text-box">
+                                <h4>Email Address</h4>
+                                <p><a href="mailto:dwmgc@hotmail.com">dwmgc@hotmail.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <!-- Address -->
+                        <div class="contact-item">
+                            <div class="contact-icon-box">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="contact-text-box">
+                                <h4>Our Location</h4>
+                                <p>No : 36/03/A/02,<br>Kirindiwela Road,<br>Yakkala</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Google Maps Embed Container -->
+                <div class="map-container reveal">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.0436894541577!2d80.0330753!3d7.0844172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2fd39ecc857d5%3A0xc892b0beda6bfe9!2sDW%20MOBILES%20%26%20GIFTS!5e0!3m2!1sen!2slk!4v1716555555555!5m2!1sen!2slk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-about reveal">
+                <a href="#home" class="footer-logo">
+                    <img src="assets/logo.jpg" alt="DW Mobiles & Gifts Logo">
+                </a>
+                <p>Bringing authentic quality devices, accessories, and gifts with premium customer service. Yakkala's choice since 2026.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61586210452432" class="social-link" target="_blank" title="Facebook Page"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-link" title="Instagram - Coming Soon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link" title="TikTok - Coming Soon"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links reveal">
+                <h3 class="footer-title">Quick Links</h3>
+                <ul>
+                    <li><a href="#home"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+                    <li><a href="#products"><i class="fa-solid fa-chevron-right"></i> Products</a></li>
+                    <li><a href="#brands"><i class="fa-solid fa-chevron-right"></i> Brands</a></li>
+                    <li><a href="#accessories"><i class="fa-solid fa-chevron-right"></i> Accessories</a></li>
+                    <li><a href="#gifts"><i class="fa-solid fa-chevron-right"></i> Gift Items</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-chevron-right"></i> Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact-details reveal">
+                <h3 class="footer-title">Store Details</h3>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>No : 36/03/A/02, Kirindiwela Road, Yakkala, Sri Lanka</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>071 4 366 377</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>dwmgc@hotmail.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="container footer-bottom">
+            <p>&copy; 2026 DW Mobiles & Gifts. All Rights Reserved.</p>
+            <p class="footer-bottom-slogan">"We Power Every Moment"</p>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON (CUSTOM HTML CODE) -->
+    <a href="https://wa.me/94714366377" class="whatsapp-float" target="_blank" id="whatsapp-floating-trigger">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+    </a>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
